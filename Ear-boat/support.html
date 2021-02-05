@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="aos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./js/aos.js"></script>
+
+    <style>
+        #body {
+            background-image: url(/image/body3.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100vh;
+        }
+        
+        .imgbig {
+            background-size: 100%;
+            background-position: center;
+            transition: 1s;
+        }
+        
+        .imgbig :hover {
+            background-size: 150%;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="w3-top w3-bar w3-card bg-dark text-white">
+        <h2> <a href="#home" class="w3-bar-item  w3-button "><span   style="color: red;">Ear</span>Bot</a></h2>
+
+
+        <div class="w3-right w3-hide-small">
+            <a href="home.html" class="w3-bar-item w3-button">Home</a>
+
+            <a href="#contact" class="w3-bar-item w3-button">Support</a>
+            <a href="connect.html" class="w3-bar-item w3-button">Connect</a>
+
+
+
+
+            <div class="search-container w3-bar-item w3-button">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button class="bg-dark border-0" type="submit"><i class="fa fa-search "></i></button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <div class="container " style="background-color:lavender">
+        <br><br><br>
+        <h3><a href="index.html">Home </a>/ Contact</h3>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class=" col-8  m-5">
+                <div class="bg-primary p-2 ">
+                    <h3 class="ml-5"><span class="text-white glyphicon glyphicon-envelope "></span> Contact us.</h3>
+                </div>
+                <form action="/action_page.php">
+
+                    <div class="form-group mt-3">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" placeholder="Enter name" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" placeholder="Enter email" id="email">
+                    </div>
+                    <p>We'll never share your email with anyone else.</p>
+
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="width: 100%; height:200px"></textarea>
+                    <button type="submit" class=" btn btn-primary mt-2"> Submit</button>
+                </form>
+            </div>
+            <div class="col-3 mt-5">
+                <div class="bg-success p-1 ">
+                    <h3 class="ml-5"><span class="fa fa-home"></span> ADDRESS</h3>
+
+                </div>
+                <div class="p-4" style=" background-color:aliceblue">
+                    <p>India</p>
+                    <p>Email : email@example.com</p>
+                    <p>Tel. +91 12 56 11 51 84</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+<footer class="container-fluid bg-dark text-center text-white">
+    <h1> WE ARE SOCIAL</h1>
+
+    <a href="#" class=" text-white fa fa-facebook-square m-3" style="font-size: 60px;"></a>
+    <a href="#" class="fa fa-twitter text-white " style="font-size: 60px;"></a>
+    <br><br><br>
+</footer>
+
+
+
+
+</html>
