@@ -1,0 +1,12 @@
+.nav {
+    display: flex;
+    color: white;
+}
+.nav li {
+    display: inline-block;
+    color:white;
+    margin: 5px;
+    padding: 0 5px;
+    justify-content: space-around;
+    text-align: center
+  }
